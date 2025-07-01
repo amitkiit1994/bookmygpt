@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   description: 'Be the first to rent or share personalized GPTs — from resume coaches to legal advisors.',
   keywords: 'AI, GPT, rental, marketplace, artificial intelligence',
   authors: [{ name: 'BookMyGPT Team' }],
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: 'BookMyGPT - Join the Waitlist',
     description: 'Be the first to rent or share personalized GPTs — from resume coaches to legal advisors.',
